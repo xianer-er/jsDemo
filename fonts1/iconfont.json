@@ -1,0 +1,58 @@
+{
+  "id": "1475665",
+  "name": "js",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "400088",
+      "name": "关闭",
+      "font_class": "htmal5icon19",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "1125578",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "1183045",
+      "name": "关闭",
+      "font_class": "guanbi1",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "3781134",
+      "name": "警示",
+      "font_class": "jingshi",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "6999241",
+      "name": "警示",
+      "font_class": "jingshi1",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "8300925",
+      "name": "闭眼",
+      "font_class": "biyan",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "11270423",
+      "name": "time",
+      "font_class": "time",
+      "unicode": "e8ad",
+      "unicode_decimal": 59565
+    }
+  ]
+}

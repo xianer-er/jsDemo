@@ -1,0 +1,310 @@
+.main-bg{
+    background: url("images/bg03.jpg") top no-repeat;
+}
+body{
+    font-size: 14px;
+    color: #666666;
+    font-family: "微软雅黑";
+}
+#tip2{
+    display: none;
+}
+html,body{
+    width: 100%;
+height: 130%;
+margin: 0px;
+padding: 0px;
+}
+.main-imgtext{
+    position: relative;
+    visibility: hidden;
+   width: 812px;
+   height: 231px;
+   left: 50%;
+   margin-left: -406px;
+   top: 150px;
+   
+}
+.main-imgtext img{
+    animation:ttile 2s ease-in;
+}
+@keyframes ttile{
+    0% {
+        width: 10px;
+        height: 5px; 
+    }
+    40%{
+        width: 812px;
+        height: 231px;
+    }
+    55%{
+        width: 712px;
+        height: 201px;
+    }
+    100%{
+        width: 812px;
+        height: 231px;
+    }
+}
+
+.content-wrap{
+    width: 1196px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrap{
+    width: 1048px;
+    height: 380px;
+    position: relative;
+   margin-top: 200px;
+}
+#iconfont-close{
+color:red;
+}
+.wrap-left{
+    background: url("images/index_bg_05.png") no-repeat;
+    width: 439px;
+    height: 380px;
+    float: left;
+    padding-top: 80px;
+}
+.wrap-middle{
+    background: url("images/index_bg_06.png") no-repeat;
+    width: 277px;
+    height: 380px;
+    float: left;
+    padding-top: 70px;
+    margin-left: 20px;
+}
+.wrap-right{
+    background: url("images/index_bg_07.png") no-repeat;
+    width: 277px;
+    height: 380px;
+    float: left;
+    padding-top: 70px;
+    margin-left: 20px;
+}
+.input-set{
+    color: white;
+    border: none;
+    width:242px;
+    height: 40px; 
+    border-radius: 5px;
+    background-color: #04515d;
+    margin-bottom: 5px;
+    padding-left: 8px;
+}
+.input-sets{
+    margin-left: 5px;
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+input:focus{
+    outline:none;
+}
+#verification-code{
+    width:140px;
+}
+#get-verification-code{
+    display: inline-block;
+    height: 40px;
+    margin-left: 9px;
+    width: 80px;
+    background-color: #2fa7ba;
+    color: #fff;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+#get-verification-code:hover{
+    background-color: #4bd5eb;
+}
+#register{
+    width: 250px;
+    height: 52px;
+    display: block;
+    margin: 20px auto 0;
+    background: url("images/index_btn_09.png") no-repeat;
+    background-position: 0px 0px;
+    border: none;
+}
+#register:hover{
+    background-position: 0px -75px;
+}
+#download{
+    width: 250px;
+    height: 52px;
+    display: block;
+    margin: 20px auto 0;
+    background: url("images/index_btn_09.png") no-repeat;
+    background-position: -260px 0px;
+    margin-top: 180px;
+}
+#uccn{
+    margin-top: 180px;
+    width: 250px;
+    height: 52px;
+    display: block;
+    margin: 20px auto 0;
+    background: url("images/index_btn_09.png") no-repeat;
+    background-position: -520px 0px;
+}
+#download:hover{
+    background-position: -260px -75px;
+}
+#uccn:hover{
+    background-position: -520px -75px;
+}
+.mouse{
+    width: 100%;
+    height: 180px;
+    padding-top: 60px;
+}
+.index-slide{
+    width: 135px;
+    height: 49px;
+    background: url("images/slide.png") no-repeat;
+    margin: 0 auto;
+    display: block;
+}
+.four-part{
+    width: 1048px;
+    height: 360px;
+    margin: 0 auto;
+}
+.four-part .car-item.c-i-01{
+    margin-top: 40px;
+    margin-left: 85px;
+}
+.four-part .car-item.c-i-02{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.four-part .car-item.c-i-03{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.four-part .car-item.c-i-04{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.four-part .car-item{
+    width: 193px;
+    height: 267px;
+    float: left;
+    position: relative;
+}
+.four-part .car-item img{
+    cursor: pointer;
+}
+img{
+    border: none;
+    display: block;
+    transition: all .5s;
+}
+.four-part img:hover{
+    margin-top: -20px;
+}
+.indexslide .prev ,.indexslide .next{
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 28px;
+    height: 42px;
+    display: block;
+    margin-top: -19px;;
+    background: url("images/index-arrow.png") 0px 0px no-repeat;
+    /* background-position: 0px 0px; */
+}
+.indexslide .bd{
+    z-index: 0;
+    /* display: none; */
+}
+.indexslide .next{
+   left:auto;
+   right:610px;
+   background-position: -56px 0px;
+}
+@media screen and (max-width: 880px ) {
+    body { width: 50% }
+    .main-bg {width: 50%; }
+    .main-imgtext{
+        width: 50%;
+    }
+    .wrap .wrap-left .wrap-middle .wrap-right{
+        width: 50%;
+    }
+    form{
+        width: 50%;
+    }
+    input{
+        width: 50%;
+    }
+    .mouse .four-part .car-item{
+        width: 50%;
+    }
+  }
+ 
+#poplayer{
+    display: none;
+    background-color: rgb(19, 18, 18);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0.3;
+}
+#popbox{
+    display: none;
+    background-color: #ffffff;
+    z-index: 110;
+    width: 488px;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+#popbox .close{
+    text-align: right;
+    margin-top: -20px;
+    height: 80px;
+    background-color: rgb(78, 199, 218);
+}
+#popbox h1{
+    text-align: center;
+    color: #fff;
+    font-weight: lighter;
+}
+#popbox .close a{
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+   
+}
+#popbox .close a:hover{
+    color: #2D2C3B;
+}
+#popbox i{
+    font-size: 70px;
+   margin-left: 70px;
+}
+.content{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 35px;
+    margin-right: 120px;
+    width: 200px;
+    float: right;
+}

@@ -1,0 +1,207 @@
+.ost_rank{
+    position: absolute;
+    width: 698px;
+    height: 456px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #999;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.ost_rank::before, .ost_rank .before{
+    border-bottom: 7px solid #ccc;
+    border-left: 7px dashed transparent;
+    border-right: 7px dashed transparent;
+    right: 1px;
+    top: -7px;
+}
+.ost_rank::before, .ost_rank .before,.ost_rank::after, .ost_rank .after{
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 0;
+    vertical-align: middle;
+    content: "";
+    border-top: 0 none;
+}
+.ost_rank_col{
+    float: left;
+    width: 212px;
+    height: 422px;
+    padding: 0 10px;
+    margin: 17px 0 8px;
+    border-left: 1px solid #e2e2e2;
+    margin-left: -1px;
+}
+.ost_rank_col .col-head{
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    width: 207px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    height: 18px;
+}
+.ost_rank_col .rank-title{
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #555;
+}
+.ost_rank_col .rank-more{
+    float: right;
+}
+.ost_rank a{
+    color: #707e91;
+    text-decoration: none;
+}
+.ost_rank .icon-font{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+}
+.rank-more:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.ost_rank_col .col-body{
+    float: left;
+}
+.ost_rank_col .rank-list{
+    float: left;
+    list-style: none;
+    padding: 9px 0 0;
+    margin: 0;
+}
+.ost_rank_col .rank-head{
+    height: 27px;
+}
+.ost_rank_col .rank-head,.ost_rank_col .rank-item{
+    float: left;
+    width: 212px;
+    overflow: visible;
+    padding: 0;
+}
+.ost_rank_col .rank-order-hd{
+    float: left;
+    width: 33px;
+}
+.ost_rank_col .rank-name-hd{
+    float: left;
+    width: 170px;
+}
+.ost_rank_col .current .rank-order-color, .ost_rank_col .rank-order-grey{
+position: relative;
+z-index: 10;
+margin-bottom: -14px;
+}
+.ost_rank_col .rank-order-color{
+    color: #fff;
+    border: 1px solid #ff4e00;
+    background: #ff4e00;
+}
+.ost_rank_col .rank-order-color, .ost_rank_col .rank-order-grey{
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin: 2px 15px 0 4px;
+    line-height: 12px;
+    text-align: center;
+}
+.ost_rank_col .rank-name-game{
+    display: inline;
+    float: left;
+    padding-bottom: 9px;
+}
+.ost_rank_col .current .ctip-text{
+    display: none;
+}
+.ost_rank a{
+    color: #707e91;
+    text-decoration: none;
+}
+.ost_rank_col .current .rank-game-cover{
+    display: block;
+
+}
+.rank-game-cover{
+    display: none;
+    position: relative;
+    width: 194px;
+    height: 82px;
+    margin-left: 4px;
+    overflow: hidden;
+    padding: 1px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.rank-game-cover .game-meta{
+    height: 28px;
+}
+.rank-game-cover .game-meta, .rank-game-cover .game-meta2{
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    margin: 0;
+    padding: 0;
+    width: 194px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.rank-game-cover .game-meta .game-link{
+    float: left;
+    width: 97px;
+    height: 13px;
+    line-height: 13px;
+    padding: 7px 0 8px;
+    color: #aaa;
+    text-align: center;
+    cursor: pointer;
+}
+.ost_rank_col .rank-order-gray {
+    border: 1px solid #999;
+    background: #fff;
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin: 2px 15px 0 4px;
+    line-height: 12px;
+    text-align: center;
+    position: relative;
+z-index: 10;
+margin-bottom: -14px;
+}
+.game-link:hover{
+    text-decoration: underline;
+}
+.icon-home{
+    background-position: 0 0;
+}
+.icon-download{
+    background-position: -14px 0;
+}
+.icon-home, .icon-download{
+    width: 13px;
+    height: 13px;
+}
+.game-link:hover>.icon-home{
+   
+    background-position: 0 -17px;
+}
+.game-link:hover>.icon-download{
+    background-position: -14px -17px;
+}
+
+.icon-home, .icon-download{
+    display: inline-block;
+    font-size: 0.1em;
+    margin: 0 5px;
+    vertical-align: top;
+    background-image: url("images/ost_rank_sp.png");
+    background-repeat: no-repeat;
+}
